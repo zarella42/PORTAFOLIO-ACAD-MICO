@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useRef } from "react";
 
-/* ---------- CSS embebido (Rosa→Fucsia diagonal, elegante) ---------- */
+
 const css = `
 :root{
   --primary:#e93375;          
@@ -19,13 +19,13 @@ const css = `
   --glow-soft:   rgba(233,51,117,.28);
 }
 
-/* modo oscuro */
+
 :root[data-theme="dark"]{
   --ink:#e5e7eb; --muted:#9aa4b2; --card:#0f1424;
   --shadow:0 10px 30px rgba(0,0,0,.4);
 }
 
-/* Reset y fondo general */
+
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
 body{
@@ -38,7 +38,7 @@ body{
 }
 a{text-decoration:none;color:inherit}
 
-/* ===== NAVBAR ===== */
+
 .nav{
   position:fixed;top:0;left:0;right:0;z-index:50;
   background:rgba(255,255,255,.9);
@@ -61,7 +61,7 @@ a{text-decoration:none;color:inherit}
 }
 .menu a:hover::after{transform:scaleX(1)}
 
-/* ===== BOTONES ===== */
+
 .btn-ghost{
   padding:12px 18px;border:1px solid #ffc2d9;border-radius:14px;background:var(--card);font-size:16px;
   transition:box-shadow .25s ease, transform .15s ease, border-color .25s ease;
@@ -83,7 +83,7 @@ a{text-decoration:none;color:inherit}
 }
 .tog{border:1px solid #ffc2d9;background:var(--card);border-radius:12px;padding:8px 10px;cursor:pointer;font-size:18px}
 
-/* ===== LAYOUT GENERAL ===== */
+
 main{
   max-width:1300px;
   margin:0 auto;
@@ -92,7 +92,7 @@ main{
 [data-reveal]{opacity:0;transform:translateY(14px);transition:opacity .6s ease,transform .6s ease}
 [data-reveal].is-visible{opacity:1;transform:none}
 
-/* ===== HERO ===== */
+
 .hero{display:grid;grid-template-columns:1.1fr .9fr;align-items:center;gap:40px}
 .kicker{display:inline-block;background:#7a113a;color:#fff;padding:8px 12px;border-radius:12px;font-size:14px;margin-bottom:14px}
 .hero h1{font-size:68px;line-height:1.05;margin:0}
@@ -105,7 +105,7 @@ main{
 .hero p{color:var(--muted);max-width:720px;font-size:18px}
 .hero .cta-row{display:flex;gap:16px;margin-top:22px}
 
-/* Avatar + borde “nube” rosada */
+
 .avatar-wrap{
   position:relative;justify-self:end;width:420px;height:420px;
   display:grid;place-items:center;isolation:isolate;
@@ -166,7 +166,7 @@ main{
 .code{position:relative;background:#0f1221;color:#e5e7eb;border-radius:12px;padding:14px;overflow:auto;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace}
 .copy{position:absolute;top:8px;right:8px;border-radius:10px;border:1px solid #334155;background:#111827;color:#e5e7eb;padding:6px 10px;cursor:pointer}
 
-/* ===== PLAN (tabla) ===== */
+
 .table-card{background:var(--card);border-radius:20px;box-shadow:var(--shadow);padding:18px}
 .table-card h2{
   text-align:center;margin:16px 0 22px;color:var(--primary);
@@ -185,13 +185,13 @@ tbody td{padding:14px;border-top:1px solid #fde2e4}
 tbody tr:nth-child(even) td{background:#ffe6f1}
 tbody tr:hover td{background:#ffd8ea}
 
-/* ===== PROYECTOS ===== */
+
 .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
 .card{background:var(--card);border-radius:16px;box-shadow:var(--shadow);padding:22px;transition:.3s}
 .card:hover{transform:translateY(-6px);box-shadow:0 6px 16px rgba(0,0,0,.15)}
 .card h3{margin:6px 0 10px;font-size:20px}
 
-/* ===== CONTACTO ===== */
+
 .contacto{
   display:grid;
   place-items:center;
@@ -445,7 +445,7 @@ footer{text-align:center;padding:34px 0;color:var(--muted);font-size:16px}
   transition: width .6s ease;
 }
 
-/* Caja de código */
+
 .code-box {
   background: #0f1221;
   color: #e5e7eb;
@@ -498,7 +498,7 @@ body,
   transition: background-color .35s ease, color .35s ease, box-shadow .35s ease, border-color .35s ease;
 }
 
-/* Respeta preferencias de accesibilidad */
+
 @media (prefers-reduced-motion: reduce) {
   body,
   .nav,
@@ -555,8 +555,8 @@ body,
 :root[data-theme="dark"] .skill-card,
 :root[data-theme="dark"] .skill-card h4,
 :root[data-theme="dark"] .skill-card p {
-  color: #111827 !important;              /* texto oscuro */
-  background: #ffffff !important;          /* fondo blanco */
+  color: #111827 !important;              
+  background: #ffffff !important;          
   border-color: #ffd6ea !important;
   box-shadow: 0 4px 12px rgba(233,51,117,.12) !important;
 }
