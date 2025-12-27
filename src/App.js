@@ -1000,7 +1000,7 @@ const Proyectos = () => {
     { titulo: "Semana 05 | Integración + React", url: "https://github.com/zarella42/PORTAFOLIO-ACAD-MICO/tree/5fe8aa16e56b1609f84e7bed0e4055b90aee4dda/Semana5" },
     { titulo: "Semana 06 | React con Vite", url: "https://github.com/zarella42/PORTAFOLIO-ACAD-MICO/tree/5fe8aa16e56b1609f84e7bed0e4055b90aee4dda/Semana6" },
     { titulo: "Semana 07 | React + Vite (TypeScript)", url: "https://github.com/zarella42/PORTAFOLIO-ACAD-MICO/tree/5fe8aa16e56b1609f84e7bed0e4055b90aee4dda/Semana7" },
-    { titulo: "Semana 09 | Teoría Backend Java/JSP/Tomcat/Maven", url: "https://github.com/.../Semana8" },
+    { titulo: "Semana 09 | Teoría Backend Java/JSP/Tomcat/Maven", url: "https://github.com/zarella42/PORTAFOLIO-ACAD-MICO/tree/main/Semana%2010" },
     { titulo: "Semana 10 | CRUD Estudiante (Spring Boot + MySQL + Postman)", url: "https://github.com/.../Semana9" },
     { titulo: "Semana 11 | CRUD Docente (Swagger + Postman + endpoints extra)", url: "https://github.com/.../Semana10" },
     { titulo: "Semana 12 | Teoría Backend PHP (Apache + PHP + Composer)", url: "https://github.com/.../Semana11" },
