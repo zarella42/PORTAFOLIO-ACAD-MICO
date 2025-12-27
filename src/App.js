@@ -976,6 +976,12 @@ const Plan = () => {
             <tr><td>5</td><td>Integración + Intro React</td><td>Unir tecnologías y primera app en React.</td></tr>
             <tr><td>6</td><td>React con Vite/Next</td><td>Entornos modernos y despliegue.</td></tr>
             <tr><td>7</td><td>React + Vite (TypeScript)</td><td>React y Vite usando TypeScript.</td></tr>
+            <tr><td>9</td><td>Teoría Backend Java/JSP/Tomcat/Maven</td><td>Fundamentos de backend con Java, JSP, Tomcat y Maven..</td></tr>
+            <tr><td>10</td><td>CRUD Estudiante (Spring Boot + MySQL + Postman)</td><td>CRUD de estudiantes con Spring Boot, MySQL y pruebas en Postman.</td></tr>
+            <tr><td>11</td><td>CRUD Docente (Swagger + Postman + endpoints extra)</td><td>CRUD de docentes con Swagger, Postman y endpoints adicionales.</td></tr>
+            <tr><td>12</td><td>Teoría Backend PHP (Apache + PHP + Composer)</td><td>Backend en PHP usando Apache y Composer.</td></tr>
+            <tr><td>13</td><td>CRUD Laravel (MySQL + Blade/Tailwind)</td><td>CRUD en Laravel con MySQL, Blade y Tailwind.</td></tr>
+            <tr><td>14</td><td>Python + Flask (CRUD) + app inteligente (LLM tipo Llama)</td><td>CRUD con Flask y aplicación inteligente usando LLM tipo LLaMA.</td></tr>
           </tbody>
         </table>
       </div>
@@ -994,6 +1000,13 @@ const Proyectos = () => {
     { titulo: "Semana 05 | Integración + React", url: "https://github.com/zarella42/PORTAFOLIO-ACAD-MICO/tree/5fe8aa16e56b1609f84e7bed0e4055b90aee4dda/Semana5" },
     { titulo: "Semana 06 | React con Vite", url: "https://github.com/zarella42/PORTAFOLIO-ACAD-MICO/tree/5fe8aa16e56b1609f84e7bed0e4055b90aee4dda/Semana6" },
     { titulo: "Semana 07 | React + Vite (TypeScript)", url: "https://github.com/zarella42/PORTAFOLIO-ACAD-MICO/tree/5fe8aa16e56b1609f84e7bed0e4055b90aee4dda/Semana7" },
+    { titulo: "Semana 09 | Teoría Backend Java/JSP/Tomcat/Maven", url: "https://github.com/.../Semana8" },
+    { titulo: "Semana 10 | CRUD Estudiante (Spring Boot + MySQL + Postman)", url: "https://github.com/.../Semana9" },
+    { titulo: "Semana 11 | CRUD Docente (Swagger + Postman + endpoints extra)", url: "https://github.com/.../Semana10" },
+    { titulo: "Semana 12 | Teoría Backend PHP (Apache + PHP + Composer)", url: "https://github.com/.../Semana11" },
+    { titulo: "Semana 13 | CRUD Laravel (MySQL + Blade/Tailwind)", url: "https://github.com/.../Semana12" },
+    { titulo: "Semana 14 | Python + Flask (CRUD) + app inteligente (LLM tipo Llama)", url: "https://github.com/.../Semana13" },
+
   ];
 
   return (
